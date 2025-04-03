@@ -5,7 +5,7 @@ manifest:
     - name: personal
       url-base: https://github.com/JaagupAverin
   defaults:
-    - remote: personal
+    remote: personal
 
   projects:
     - name: gale-sensor-app
