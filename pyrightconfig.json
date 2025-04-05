@@ -1,0 +1,7 @@
+{
+  "include": ["scripts"],
+  "typeCheckingMode": "recommended",
+  "reportUnusedCallResult": "none",
+  "reportAny": "none",
+  "reportExplicitAny": "none"
+}

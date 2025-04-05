@@ -1,0 +1,6 @@
+west-commands:
+  - file: scripts/hello.py
+    commands:
+      - name: hello
+        class: Hello
+        help: print hello
