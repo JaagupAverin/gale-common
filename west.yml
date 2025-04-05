@@ -1,21 +1,18 @@
 manifest:
-  version: "1.2" # latest
+  version: "1.2"
 
   remotes:
     - name: personal
       url-base: https://github.com/JaagupAverin
   defaults:
     remote: personal
+    revision: main
 
   projects:
     - name: gale-sensor-app
       path: sensor_app
-      description: |
-        Sidekick application that reads raw sensor data and forwards it to the main application.
     - name: gale-bluetooth-app
       path: bluetooth_app
-      description: |
-        Sidekick application that links the main application to a phone.
 
   self:
     path: main_app
