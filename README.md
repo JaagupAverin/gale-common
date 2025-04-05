@@ -14,7 +14,7 @@ Clone repositories:
 ```bash
 mkdir gale && cd gale
 west init -m https://github.com/JaagupAverin/gale-common
-west update
+west update --rebase
 ```
 
 Install dependencies:
