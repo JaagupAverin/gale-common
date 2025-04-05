@@ -15,4 +15,4 @@ manifest:
       path: bluetooth_app
 
   self:
-    path: main_app
+    path: common
