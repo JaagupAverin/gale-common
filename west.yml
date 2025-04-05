@@ -13,6 +13,8 @@ manifest:
       path: sensor_app
     - name: gale-bluetooth-app
       path: bluetooth_app
+    - name: gale-zephyr
+      path: zephyr
 
   self:
     path: common
