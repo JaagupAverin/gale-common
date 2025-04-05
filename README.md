@@ -20,10 +20,12 @@ west update --rebase
 Install dependencies:
 
 ```bash
-cd common
 python -m venv .venv
-source .venv/bin/activate
+
 python -m pip install west ruff basedpyright
 west packages pip --install
 west sdk install
+
+ln -s .venv common/.venv
+ln -s .venv zephyr/.venv
 ```
