@@ -3,5 +3,5 @@
   "typeCheckingMode": "recommended",
   "reportUnusedCallResult": "none",
   "reportAny": "none",
-  "reportExplicitAny": "none"
+  "reportExplicitAny": "none",
 }
