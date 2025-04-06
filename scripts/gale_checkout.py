@@ -9,7 +9,7 @@ from west.commands import WestCommand
 sys.path.append(os.fspath(Path(__file__).parent.parent))
 
 
-class Hello(WestCommand):
+class GaleCheckout(WestCommand):
     def __init__(self) -> None:
         super().__init__(
             "hello",
