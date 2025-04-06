@@ -1,9 +1,0 @@
-west-commands:
-  - file: scripts/hello.py
-    commands:
-      - name: gale-install
-        class: GaleInstall
-        help: install gale dependencies
-      - name: gale-checkout
-        class: GaleCheckout
-        help: fetch and checkout the main branch on all gale projects
