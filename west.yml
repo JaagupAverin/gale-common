@@ -2,7 +2,7 @@ manifest:
   version: "1.2"
 
   self:
-    path: shared
+    path: gale_shared
     west-commands: scripts/west-commands.yml
 
   remotes:
